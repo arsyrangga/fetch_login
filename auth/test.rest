@@ -1,0 +1,42 @@
+###
+GET https://frozen-oasis-52436.herokuapp.com
+Content-Type: application/json
+
+###
+POST https://rangsapp.herokuapp.com/login
+Content-Type: application/json
+
+{
+    "email" : "kopix@gmail.com",
+    "password" : "rggxa123"
+}
+
+#get all data from notes
+###
+GET http://localhost:5000/notes
+Content-Type: application/json
+
+#get all data from user_email
+###
+GET http://localhost:5000/notes?user_email=ranggax@gmail.com
+Content-Type: application/json
+
+#get all data from id
+###
+GET http://localhost:5000/notes?id=2
+Content-Type: application/json
+
+#get all data from query
+###
+GET http://localhost:5000/notes?q=adalah
+Content-Type: application/json
+
+#get all data from query
+###
+GET http://localhost:5000/notes?q=teh
+Content-Type: application/json
+
+#get all data by query and email
+###
+GET http://localhost:5000/notes?q=teh&user_email=ranggantwleng77@gmail.com
+Content-Type: application/json

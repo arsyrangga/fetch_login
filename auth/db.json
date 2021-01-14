@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "email": "arsyrangga@gmail.com",
+      "password": "$2a$10$ogb5fw9.PG/hMzPO3iAxm.aROAJbEUfJB1ewXUf60DaEoTwDjwNZi",
+      "id": 1
+    },
+    {
+      "email": "teh@gmail.com",
+      "password": "$2a$10$d8PXvSY4cpBBLgCMoBf82emWJl3PzWHgRJ7ZP.uIYA8PZx9KsQLa2",
+      "id": 2
+    },
+    {
+      "email": "kopi@gmail.com",
+      "password": "$2a$10$Usw9f4n5FTgcNj4MCXwlZugr1mi4i5bEijVIm8I41MNdtc/KdtpVO",
+      "id": 3
+    },
+    {
+      "email": "kopix@gmail.com",
+      "password": "$2a$10$9rrRY1Eg.BQBzqQcyYtZB.mePxTiFWPPvQRBs60VNglVL6IVZhX5C",
+      "id": 4
+    },
+    {
+      "email": "arsyranggaa@gmail.com",
+      "password": "$2a$10$bFhq8N9ED70XmJp8R3hCnuRWxhet4EmhInER1uU6B7yqKLUlu4AGS",
+      "password2": "12345678",
+      "id": 5
+    },
+    {
+      "email": "hana@gmail.com",
+      "password": "$2a$10$/AkUWcr/ApasSeHCqs8C3OGaNp6vUuJjPw6YNhi.MZUBmC1sJRdEC",
+      "password2": "hana105",
+      "id": 6
+    },
+    {
+      "email": "ranggantwleng77@gmail.com",
+      "password": "$2a$10$YaL8b2afR2iNU1pSxt82HeqTJQB5TqPZJo4WfPaSfgYkXqPK0E1Uu",
+      "password2": "rangga105",
+      "id": 7
+    },
+    {
+      "email": "akuntuyulkesatu1@gmail.com",
+      "password": "$2a$10$p4Xf.089n9hXRa.TTJuLj.r6DDYj8V9seVId8Wv3gb8B5jJ1tEdAW",
+      "id": 8
+    },
+    {
+      "email": "ofasert@gmail.com",
+      "password": "$2a$10$jgV/w2WHaXsa7oJk8Vi14O6TQD4KrjaNvbNn7yusqmo6KRm/8fLHa",
+      "id": 9
+    },
+    {
+      "email": "ranggax105@gmail.com",
+      "password": "$2a$10$5//Yc3o1NL3xegGYd92DD.5Yfuh7k1hg543HkBrO6K6dR3pw4ZOMK",
+      "id": 10
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$I8CguUyEMYcJYxU0VWjyAeGoKtEE9caB00iToBk2CgmGjtpiTBLHq",
+      "id": 11
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$MoHpThTcJPvCFI/Riwqz1u/HssSz326mtfvPgQIlUTs4.6wcQAzQG",
+      "id": 12
+    }
+  ],
+  "notes": [
+    {
+      "id": 2,
+      "user_email": "rangganteng52@gmail.com",
+      "title": "ini semua title",
+      "body": "ini adalah note kedua Saya"
+    },
+    {
+      "id": 3,
+      "user_email": "arsyrangga@gmail.com",
+      "title": "ini semua title",
+      "body": "ini adalah note ketiga Saya"
+    },
+    {
+      "id": 4,
+      "user_email": "ranggax@gmail.com",
+      "title": "ini semua title",
+      "body": "ini adalah note keempat Saya"
+    },
+    {
+      "id": 5,
+      "user_email": "ranggax@gmail.com",
+      "title": "ini semua title",
+      "body": "ini adalah note kelima Saya"
+    },
+    {
+      "user_email": "ranggantwleng77@gmail.com",
+      "title": "Rangga Arsy Prawira",
+      "body": "<b>rangga</b>\n<button>test</button>\nteh!",
+      "id": 6
+    },
+    {
+      "user_email": "ranggantwleng77@gmail.com",
+      "title": "esegdsgs",
+      "body": "Teh",
+      "id": 7
+    }
+  ]
+}

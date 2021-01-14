@@ -1,0 +1,105 @@
+.home{
+    margin-top: 10vh;
+    width: 100vw;
+    height: 200vh;
+    min-height: 100vh;
+    color: black;
+    padding: 40px 5%;
+
+}
+
+.home-banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:20px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home h3{
+    font-size : 20pt ;
+}
+
+
+.home button{
+    border: none;
+    margin: 10px 0;
+    background-color: #2a3ef0;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 11pt;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: "roboto";
+    opacity: 0.9;
+    transition-duration: 0.3s;
+    outline: none;
+}
+
+.home button:hover{
+    opacity: 1;
+}
+
+.home a{
+    padding: 8px 35px;
+    font-size: 11pt;
+    background-color:  #f02a2a ;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 25px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition-duration: 0.3s ;
+}
+
+.home a:hover{
+    opacity: 1;
+}
+
+
+.home-card{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.box{
+    width: 22%;
+    height: 75%;
+    background-color: #367dee;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-image: url(https://picsum.photos/seed/543/500);
+    background-position: center;
+    transition-delay: 0.2s;
+    background-size: cover;
+    transform: rotateX(360deg);
+    transition-duration: 2s;
+}
+
+
+@media only screen and (max-width:850px){
+    .home h3{
+        font-size : 18pt ;
+
+    }
+}

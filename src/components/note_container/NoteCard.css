@@ -1,0 +1,104 @@
+.noteCard{
+    width: calc(90%/3);
+    height: 250px;
+    padding: 20px;
+    box-shadow:  3px 3px 5px rgba(0,0,0, 0.3);
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+}
+
+.noteCard h2{
+    font-size: 16pt;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.note_body{
+    word-wrap: break-word;
+}
+
+.contener{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.del-icon{
+    color: red;
+    z-index: 150;
+    cursor: pointer;
+    font-size: 12pt;
+    margin-left: 5px;
+
+}
+
+.edit_icon{
+    z-index: 150;
+    cursor: pointer;
+    font-size: 12pt;
+    color: green;
+}
+
+.editInput{
+    width: 100%;
+    border: 1px solid  #4286f498;
+    padding: 0 3px;
+    outline: none;
+    height: 25px;
+    margin-bottom: 5px;
+
+}
+
+.formEdit{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.titleText{
+    font-size: 12pt;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.bodyText{
+    font-size: 12pt;
+    font-weight: 500;
+    margin-bottom: 3px;
+
+}
+.editTextarea{
+    width: 100%;
+    height: 70px;
+    resize: none;
+    border: 1px solid  #4286f498;
+    padding: 0 2%;
+    outline: none;
+    padding:3px;
+
+}
+
+@media only screen and (max-width: 600px){
+    .noteCard{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1000px){
+    .noteCard{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}

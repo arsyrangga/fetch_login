@@ -1,0 +1,24 @@
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer h3{
+    font-size: 11pt;
+}
+
+@media only screen and (max-width:850px){
+    .footer{
+        height: 7vh;
+    }
+    .footer h3{
+        font-size : 8.5pt ;
+
+    }
+}
